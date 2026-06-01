@@ -24,6 +24,8 @@ COLORS = {
     "yellow_soft": "#FEF3C7",
     "graphite": "#111827",
     "graphite_soft": "#E5E7EB",
+    "amber": "#F59E0B",
+    "amber_soft": "#FEF3C7",
 }
 
 # Colores de burbujas no meteorológicas: bajo → medio → alto.
