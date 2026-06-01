@@ -47,19 +47,13 @@ def _parse_map_click(map_output: dict, airport_df) -> str | None:
 def render_map_explorer(df) -> None:
     """Renderiza la experiencia principal basada en mapa, capas y clics."""
 
-    header_cols = st.columns([1.6, 3.7, 1.15], vertical_alignment="center")
+    header_cols = st.columns([1.6, 4.85], vertical_alignment="center")
 
     with header_cols[0]:
         render_brand()
 
     with header_cols[1]:
         active_layer = render_layer_selector(st.session_state["active_layer"])
-
-    with header_cols[2]:
-        st.markdown(
-            "<div class='ad-pill'>Actualizado · dataset mensual</div>",
-            unsafe_allow_html=True,
-        )
 
     active_layer = st.session_state["active_layer"]
 

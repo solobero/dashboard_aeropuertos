@@ -153,19 +153,6 @@ def apply_styles() -> None:
             font-size: .82rem;
         }}
 
-        .ad-pill {{
-            display: inline-flex;
-            align-items: center;
-            gap: .45rem;
-            border: 1px solid {COLORS['border']};
-            border-radius: 999px;
-            padding: .45rem .75rem;
-            color: {COLORS['muted']};
-            background: {COLORS['surface']};
-            font-size: .82rem;
-            white-space: nowrap;
-        }}
-
         .ad-layer-note {{
             background: {COLORS['blue_soft']};
             color: #1E3A8A;
